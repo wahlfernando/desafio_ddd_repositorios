@@ -1,5 +1,5 @@
 import { beforeEach, describe, it } from "node:test";
-import { Order, OrderRepository } from "../infra/repositories/OrderRepository";
+import { Order, OrderRepository } from "./OrderRepository";
 describe("OrderRepository", () => {
   let orderRepository: OrderRepository;
 
